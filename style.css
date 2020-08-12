@@ -1,0 +1,126 @@
+*{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    box-sizing: content-box;
+    padding: 0;
+    text-decoration: none;
+}
+
+body{
+    margin: 0;
+}
+
+header{
+    height: 3.5rem;
+    padding: 0.20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-item{
+    height: 45%;
+    margin: 0 1rem;
+}
+
+.yt-image{
+    width: 200px;
+    height: 44px;
+}
+
+.search-bar{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    height: 70%;
+}
+
+.search-input{
+    margin-right: -1px;
+    height: 100%;
+    width: 60%;
+    padding-left: 10px;
+    border: 1px solid lightgray;
+    border-radius: 2xp;
+}
+
+.search-button{
+    height: 100%;
+    width: 50px;
+    border: 1px solid lightgray;
+    margin-left: 0;
+    background-image: url("images/search.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50%;
+}
+
+#main-content{
+    background-color: rgb(243,243,243);
+    display: flex;
+}
+
+.left-side{
+    width: 100%;
+    padding: 0px;
+}
+
+.video-container{
+    position: relative;
+    margin-left: 50px;
+    margin-bottom: 0;
+    padding-bottom: 100%;
+    padding-top: 5%;
+    height: 0;
+    overflow: hidden;
+}
+
+.ytb-video{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.playlist-container{
+    display: inline-block;
+    width: 75%;
+    padding: 10px 10px;
+}
+
+.playlist-item{
+    display: flex;
+    align-items: flex-start;
+}
+
+.thumbnail{
+    width: 40%;
+    padding: 5px;
+}
+
+.video-description{
+    font-size: .9em;
+    padding: 0 15px;
+}
+
+.video-title{
+    font-weight: bold;
+    margin-bottom: 0; 
+}
+
+.video-info{
+    color: gray;
+    font-size: .9em;
+    padding: 0;
+    margin: 0;
+}
+
+hr{
+    border: 1px solid lightgray;
+}
+
+.main-content{
+    font-weight: bold;
+    font-size: 1.1em;
+    margin-top: 0;
+}
